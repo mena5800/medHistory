@@ -1,0 +1,37 @@
+body{
+  margin: 0 0 0 0;
+}
+
+header{
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  margin: 0 0 0 0;
+  background-color: antiquewhite;
+  height: 50px;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+main *{
+  width: 100%;
+}
+#forms *{
+  display: flex;
+  flex-direction: column;
+}
+
+form * {
+  width: 70%;
+  height: 3vh;
+  margin: 5px;
+}
+
+#signUp{
+  display:none;
+}
